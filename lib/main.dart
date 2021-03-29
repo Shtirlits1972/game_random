@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Game Random',
-      theme: ThemeData(
+      theme: ThemeData(fontFamily: 'Raleway',
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Game Random'),
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text(
                       roomsDeskr,
                       style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'NewTegomin'),
                     ),
                   ),
                 ],
